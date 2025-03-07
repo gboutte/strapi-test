@@ -30,6 +30,11 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    translations: {
+      'fr':{
+        'HomePage.header.subtitle': 'Bienvenue sur Strapi',
+      }
+    }
   },
   bootstrap(app: StrapiApp) {
     console.log(app);
